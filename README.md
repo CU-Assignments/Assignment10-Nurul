@@ -28,7 +28,7 @@ Therefore, the total cost is 5+40+10=55.</br>
 You are given an array 'A' of size 'N'. </br>
 You can apply the following operation any number of times (possibly zero) on 'A'.</br>
 1. Choose any prefix of 'A' such that the last element of </br>
-the prefox is equal to the minimum element of the chosen prefix </br>
+the prefix is equal to the minimum element of the chosen prefix </br>
 and replace all its elements with its last element. </br>
 For example: A' = [3, 4, 1, 3, 0, 7] </br>
 if we choose the prefix 'A[0...2] le ending at index 2, </br>
@@ -49,7 +49,7 @@ We will apply operation 1 on the entire array ie 'A[0...4]'. </br>
 Resultant array will be </br>
 'A' = [0, 0, 0, 0, 0]. </br>
 Therefore the answer will be 2. </br>
-Input formate: /br>
+Input formate: </br>
 1. first line number of test case </br>
 2. second line n which is size of array for each test case </br>
 3. third line n space seperated integer element of array </br>

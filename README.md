@@ -31,12 +31,12 @@ You can apply the following operation any number of times (possibly zero) on 'A'
 the prefox is equal to the minimum element of the chosen prefix </br>
 and replace all its elements with its last element. </br>
 For example: A' = [3, 4, 1, 3, 0, 7] </br>
-if we choose the prefix 'A[02] le ending at index 2, </br>
+if we choose the prefix 'A[0...2] le ending at index 2, </br>
 then the final array will be ` A' = [1, 1, 1, 3, 0, 7 ]</br>
 2. Choose any contiguous segment of 'A' and cyclically shift this </br>
 segment to the left, keeping the remaining elements unchanged. </br> 
-For example: A^ prime =[ 3, 4, 1, 3, 0 ,7] </br>
-if we choose the segment 'A[1.3]' ie starting at index 1 </br>
+For example: A=[ 3, 4, 1, 3, 0 ,7] </br>
+if we choose the segment 'A[1...3]' ie starting at index 1 </br>
 and ending at index 3, then the final array will be A' = [3, 1, 3, 4, 0, 7] </br>
 Note: Assume 0-based indexing. </br>
 Return the minimum number of operations required to make all </br>
